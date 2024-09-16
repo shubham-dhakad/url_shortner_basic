@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Paste your URL</h1>
+      <form id="form">
+        <label for="url">URL:</label>
+        <input id="url" name="url" type="text" required />
+        <div id="result">
+          <p>Your shortened URL:</p>
+          <a href="#" id="short-url" target="_blank"></a>
+        </div>
+        <button id="button" type="button">Short URL</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
